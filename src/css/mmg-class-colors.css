@@ -1,0 +1,300 @@
+.mmg-img.mmg-class-0 .mmg-dark,
+.mmg-grid.mmg-class-0 .mmg-img .mmg-dark {
+  background-color: rgba(87, 15, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-0 .mmg-light,
+.mmg-grid.mmg-class-0 .mmg-img .mmg-light {
+  background-color: rgba(153, 51, 51, 0.8);
+  color: rgba(87, 15, 15, 0.8);
+}
+.mmg-img.mmg-class-12 .mmg-dark,
+.mmg-grid.mmg-class-12 .mmg-img .mmg-dark {
+  background-color: rgba(87, 30, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-12 .mmg-light,
+.mmg-grid.mmg-class-12 .mmg-img .mmg-light {
+  background-color: rgba(153, 71, 51, 0.8);
+  color: rgba(87, 30, 15, 0.8);
+}
+.mmg-img.mmg-class-24 .mmg-dark,
+.mmg-grid.mmg-class-24 .mmg-img .mmg-dark {
+  background-color: rgba(87, 44, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-24 .mmg-light,
+.mmg-grid.mmg-class-24 .mmg-img .mmg-light {
+  background-color: rgba(153, 92, 51, 0.8);
+  color: rgba(87, 44, 15, 0.8);
+}
+.mmg-img.mmg-class-36 .mmg-dark,
+.mmg-grid.mmg-class-36 .mmg-img .mmg-dark {
+  background-color: rgba(87, 58, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-36 .mmg-light,
+.mmg-grid.mmg-class-36 .mmg-img .mmg-light {
+  background-color: rgba(153, 112, 51, 0.8);
+  color: rgba(87, 58, 15, 0.8);
+}
+.mmg-img.mmg-class-48 .mmg-dark,
+.mmg-grid.mmg-class-48 .mmg-img .mmg-dark {
+  background-color: rgba(87, 72, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-48 .mmg-light,
+.mmg-grid.mmg-class-48 .mmg-img .mmg-light {
+  background-color: rgba(153, 133, 51, 0.8);
+  color: rgba(87, 72, 15, 0.8);
+}
+.mmg-img.mmg-class-60 .mmg-dark,
+.mmg-grid.mmg-class-60 .mmg-img .mmg-dark {
+  background-color: rgba(87, 87, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-60 .mmg-light,
+.mmg-grid.mmg-class-60 .mmg-img .mmg-light {
+  background-color: rgba(153, 153, 51, 0.8);
+  color: rgba(87, 87, 15, 0.8);
+}
+.mmg-img.mmg-class-72 .mmg-dark,
+.mmg-grid.mmg-class-72 .mmg-img .mmg-dark {
+  background-color: rgba(72, 87, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-72 .mmg-light,
+.mmg-grid.mmg-class-72 .mmg-img .mmg-light {
+  background-color: rgba(133, 153, 51, 0.8);
+  color: rgba(72, 87, 15, 0.8);
+}
+.mmg-img.mmg-class-84 .mmg-dark,
+.mmg-grid.mmg-class-84 .mmg-img .mmg-dark {
+  background-color: rgba(58, 87, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-84 .mmg-light,
+.mmg-grid.mmg-class-84 .mmg-img .mmg-light {
+  background-color: rgba(112, 153, 51, 0.8);
+  color: rgba(58, 87, 15, 0.8);
+}
+.mmg-img.mmg-class-96 .mmg-dark,
+.mmg-grid.mmg-class-96 .mmg-img .mmg-dark {
+  background-color: rgba(44, 87, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-96 .mmg-light,
+.mmg-grid.mmg-class-96 .mmg-img .mmg-light {
+  background-color: rgba(92, 153, 51, 0.8);
+  color: rgba(44, 87, 15, 0.8);
+}
+.mmg-img.mmg-class-108 .mmg-dark,
+.mmg-grid.mmg-class-108 .mmg-img .mmg-dark {
+  background-color: rgba(30, 87, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-108 .mmg-light,
+.mmg-grid.mmg-class-108 .mmg-img .mmg-light {
+  background-color: rgba(71, 153, 51, 0.8);
+  color: rgba(30, 87, 15, 0.8);
+}
+.mmg-img.mmg-class-120 .mmg-dark,
+.mmg-grid.mmg-class-120 .mmg-img .mmg-dark {
+  background-color: rgba(15, 87, 15, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-120 .mmg-light,
+.mmg-grid.mmg-class-120 .mmg-img .mmg-light {
+  background-color: rgba(51, 153, 51, 0.8);
+  color: rgba(15, 87, 15, 0.8);
+}
+.mmg-img.mmg-class-132 .mmg-dark,
+.mmg-grid.mmg-class-132 .mmg-img .mmg-dark {
+  background-color: rgba(15, 87, 30, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-132 .mmg-light,
+.mmg-grid.mmg-class-132 .mmg-img .mmg-light {
+  background-color: rgba(51, 153, 71, 0.8);
+  color: rgba(15, 87, 30, 0.8);
+}
+.mmg-img.mmg-class-144 .mmg-dark,
+.mmg-grid.mmg-class-144 .mmg-img .mmg-dark {
+  background-color: rgba(15, 87, 44, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-144 .mmg-light,
+.mmg-grid.mmg-class-144 .mmg-img .mmg-light {
+  background-color: rgba(51, 153, 92, 0.8);
+  color: rgba(15, 87, 44, 0.8);
+}
+.mmg-img.mmg-class-156 .mmg-dark,
+.mmg-grid.mmg-class-156 .mmg-img .mmg-dark {
+  background-color: rgba(15, 87, 58, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-156 .mmg-light,
+.mmg-grid.mmg-class-156 .mmg-img .mmg-light {
+  background-color: rgba(51, 153, 112, 0.8);
+  color: rgba(15, 87, 58, 0.8);
+}
+.mmg-img.mmg-class-168 .mmg-dark,
+.mmg-grid.mmg-class-168 .mmg-img .mmg-dark {
+  background-color: rgba(15, 87, 72, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-168 .mmg-light,
+.mmg-grid.mmg-class-168 .mmg-img .mmg-light {
+  background-color: rgba(51, 153, 133, 0.8);
+  color: rgba(15, 87, 72, 0.8);
+}
+.mmg-img.mmg-class-180 .mmg-dark,
+.mmg-grid.mmg-class-180 .mmg-img .mmg-dark {
+  background-color: rgba(15, 87, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-180 .mmg-light,
+.mmg-grid.mmg-class-180 .mmg-img .mmg-light {
+  background-color: rgba(51, 153, 153, 0.8);
+  color: rgba(15, 87, 87, 0.8);
+}
+.mmg-img.mmg-class-192 .mmg-dark,
+.mmg-grid.mmg-class-192 .mmg-img .mmg-dark {
+  background-color: rgba(15, 72, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-192 .mmg-light,
+.mmg-grid.mmg-class-192 .mmg-img .mmg-light {
+  background-color: rgba(51, 133, 153, 0.8);
+  color: rgba(15, 72, 87, 0.8);
+}
+.mmg-img.mmg-class-204 .mmg-dark,
+.mmg-grid.mmg-class-204 .mmg-img .mmg-dark {
+  background-color: rgba(15, 58, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-204 .mmg-light,
+.mmg-grid.mmg-class-204 .mmg-img .mmg-light {
+  background-color: rgba(51, 112, 153, 0.8);
+  color: rgba(15, 58, 87, 0.8);
+}
+.mmg-img.mmg-class-216 .mmg-dark,
+.mmg-grid.mmg-class-216 .mmg-img .mmg-dark {
+  background-color: rgba(15, 44, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-216 .mmg-light,
+.mmg-grid.mmg-class-216 .mmg-img .mmg-light {
+  background-color: rgba(51, 92, 153, 0.8);
+  color: rgba(15, 44, 87, 0.8);
+}
+.mmg-img.mmg-class-228 .mmg-dark,
+.mmg-grid.mmg-class-228 .mmg-img .mmg-dark {
+  background-color: rgba(15, 30, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-228 .mmg-light,
+.mmg-grid.mmg-class-228 .mmg-img .mmg-light {
+  background-color: rgba(51, 71, 153, 0.8);
+  color: rgba(15, 30, 87, 0.8);
+}
+.mmg-img.mmg-class-240 .mmg-dark,
+.mmg-grid.mmg-class-240 .mmg-img .mmg-dark {
+  background-color: rgba(15, 15, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-240 .mmg-light,
+.mmg-grid.mmg-class-240 .mmg-img .mmg-light {
+  background-color: rgba(51, 51, 153, 0.8);
+  color: rgba(15, 15, 87, 0.8);
+}
+.mmg-img.mmg-class-252 .mmg-dark,
+.mmg-grid.mmg-class-252 .mmg-img .mmg-dark {
+  background-color: rgba(30, 15, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-252 .mmg-light,
+.mmg-grid.mmg-class-252 .mmg-img .mmg-light {
+  background-color: rgba(71, 51, 153, 0.8);
+  color: rgba(30, 15, 87, 0.8);
+}
+.mmg-img.mmg-class-264 .mmg-dark,
+.mmg-grid.mmg-class-264 .mmg-img .mmg-dark {
+  background-color: rgba(44, 15, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-264 .mmg-light,
+.mmg-grid.mmg-class-264 .mmg-img .mmg-light {
+  background-color: rgba(92, 51, 153, 0.8);
+  color: rgba(44, 15, 87, 0.8);
+}
+.mmg-img.mmg-class-276 .mmg-dark,
+.mmg-grid.mmg-class-276 .mmg-img .mmg-dark {
+  background-color: rgba(58, 15, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-276 .mmg-light,
+.mmg-grid.mmg-class-276 .mmg-img .mmg-light {
+  background-color: rgba(112, 51, 153, 0.8);
+  color: rgba(58, 15, 87, 0.8);
+}
+.mmg-img.mmg-class-288 .mmg-dark,
+.mmg-grid.mmg-class-288 .mmg-img .mmg-dark {
+  background-color: rgba(72, 15, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-288 .mmg-light,
+.mmg-grid.mmg-class-288 .mmg-img .mmg-light {
+  background-color: rgba(133, 51, 153, 0.8);
+  color: rgba(72, 15, 87, 0.8);
+}
+.mmg-img.mmg-class-300 .mmg-dark,
+.mmg-grid.mmg-class-300 .mmg-img .mmg-dark {
+  background-color: rgba(87, 15, 87, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-300 .mmg-light,
+.mmg-grid.mmg-class-300 .mmg-img .mmg-light {
+  background-color: rgba(153, 51, 153, 0.8);
+  color: rgba(87, 15, 87, 0.8);
+}
+.mmg-img.mmg-class-312 .mmg-dark,
+.mmg-grid.mmg-class-312 .mmg-img .mmg-dark {
+  background-color: rgba(87, 15, 72, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-312 .mmg-light,
+.mmg-grid.mmg-class-312 .mmg-img .mmg-light {
+  background-color: rgba(153, 51, 133, 0.8);
+  color: rgba(87, 15, 72, 0.8);
+}
+.mmg-img.mmg-class-324 .mmg-dark,
+.mmg-grid.mmg-class-324 .mmg-img .mmg-dark {
+  background-color: rgba(87, 15, 58, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-324 .mmg-light,
+.mmg-grid.mmg-class-324 .mmg-img .mmg-light {
+  background-color: rgba(153, 51, 112, 0.8);
+  color: rgba(87, 15, 58, 0.8);
+}
+.mmg-img.mmg-class-336 .mmg-dark,
+.mmg-grid.mmg-class-336 .mmg-img .mmg-dark {
+  background-color: rgba(87, 15, 44, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-336 .mmg-light,
+.mmg-grid.mmg-class-336 .mmg-img .mmg-light {
+  background-color: rgba(153, 51, 92, 0.8);
+  color: rgba(87, 15, 44, 0.8);
+}
+.mmg-img.mmg-class-348 .mmg-dark,
+.mmg-grid.mmg-class-348 .mmg-img .mmg-dark {
+  background-color: rgba(87, 15, 30, 0.8);
+  color: white;
+}
+.mmg-img.mmg-class-348 .mmg-light,
+.mmg-grid.mmg-class-348 .mmg-img .mmg-light {
+  background-color: rgba(153, 51, 71, 0.8);
+  color: rgba(87, 15, 30, 0.8);
+}

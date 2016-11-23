@@ -1,0 +1,34 @@
+@import "mixins.less";
+
+.colors(360);
+.colors(@n, @i:0) when (@i < @n) {
+    
+
+  .mmg-img.mmg-class-@{i}, .mmg-grid.mmg-class-@{i} .mmg-img {
+
+      .dark(@i);
+
+    }
+
+  .colors(@n,(@i+12));
+}
+
+.dark(@c) {
+    
+
+  @color: hsla(@c,50%,40%,0.8);
+  @dark-color:  hsla(@c,70%,20%,0.8);
+
+  .mmg-dark {
+    background-color: @dark-color;
+    color: white;
+  }
+  .mmg-light {
+    background-color: @color;
+    color:@dark-color;
+  }
+  
+}
+
+
+
