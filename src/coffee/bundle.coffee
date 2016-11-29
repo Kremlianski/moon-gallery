@@ -6272,85 +6272,7 @@ class MMG.Lightbox.External
       id = $(this).parents(".#{ns}-img").attr('data-image-id')
       gallery.eq(id).click()
       return
-      
-      
-  ###*
-  #
-  # @method prettyPhoto
-  # @public
-  # @static
-  # @param {Object} options - an object of native prettyPhoto options
-  # @param {Object} cbs - an object of callbacks: 
-  #   getTitle - returns the caption title
-  #     default: ''
-  #   getDescription - returns the caption description
-  #     default: ''
-  #   getHref - returns the src of the image to be shown
-  #     default: item.href
-  #  @return {prettyPhoto}
-  #
-  ###
-  @prettyPhoto: (options = {}, cbs = {}) ->
-  
-    cbs.getTitle ?= (item) -> ''
-    cbs.getDescription ?= (item) -> ''
-    cbs.getHref ?= (item) -> item.href
-    
-    model = @model
-    meta = model.meta
-    root = meta.root
-    rootSelector = meta.grid
-    ns = meta.NS
-    
-    
-    ###*
-    #
-    # sorts the array so that the active element is first one (index = 0)
-    # @param {Array} array - an array that to be modified
-    # @param {Integer} index - an index of the active element
-    # @return {Array}
-    #
-    ###
-
-    arrayRebuild = (array, index) ->
-      part_one = array.slice(0, index)
-      part_two = array.slice(index)
-      part_two.concat part_one
-      
-    
-    $().prettyPhoto options
-    
-    images = []
-    titles = []
-    descriptions = []
-    
-    root.on 'dataLoaded', (e, data) ->
-    
-      images = []
-      titles = []
-      descriptions = []
-      
-      datas = data.all
-      
-      datas.forEach (item) ->
-        images.push cbs.getHref(item)
-        titles.push cbs.getTitle(item)
-        descriptions.push cbs.getDescription(item)
-        return
-      return
-      
-    $('body').on 'click', ".#{ns}-link", (e) ->
-    
-      e.preventDefault()
-      id = $(this).parents(".#{ns}-img").attr('data-image-id')
-      
-      images_new = arrayRebuild(images, id)
-      titles_new = arrayRebuild(titles, id)
-      descriptions_new = arrayRebuild(descriptions, id)
-      
-      $.prettyPhoto.open images_new, titles_new, descriptions_new
-      return
-      
+          
     
   ###*
   #
@@ -6724,7 +6646,7 @@ class MMG.Grid.Grid
       when 'colorbox' 
         MMG.Lightbox.External.colorBox.call @, options, cbs
       when 'prettyphoto'
-        MMG.Lightbox.External.prettyPhoto.call @, options, cbs
+        console.log 'PrettyPhoto is not supported any more!!!'
       when 'photoswipe'
         MMG.Lightbox.External.photoSwipe.call @, options, cbs
       else console.error 'Wrong lightbox parameter!'

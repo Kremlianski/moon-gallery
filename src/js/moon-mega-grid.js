@@ -6615,7 +6615,7 @@ Moon Mega Grid
        * {Integer}
        * default: Infinity
        */
-      this.meta.minHeight = 2e308;
+      this.meta.minHeight = Infinity;
       _.defaults(this.meta, def);
       Models[this.gridId].meta = this.meta;
       this.meta.loader = {
@@ -6831,94 +6831,6 @@ Moon Mega Grid
         e.preventDefault();
         id = $(this).parents("." + ns + "-img").attr('data-image-id');
         gallery.eq(id).click();
-      });
-    };
-
-
-    /**
-     *
-     * @method prettyPhoto
-     * @public
-     * @static
-     * @param {Object} options - an object of native prettyPhoto options
-     * @param {Object} cbs - an object of callbacks: 
-     *   getTitle - returns the caption title
-     *     default: ''
-     *   getDescription - returns the caption description
-     *     default: ''
-     *   getHref - returns the src of the image to be shown
-     *     default: item.href
-     *  @return {prettyPhoto}
-     *
-     */
-
-    External.prettyPhoto = function(options, cbs) {
-      var arrayRebuild, descriptions, images, meta, model, ns, root, rootSelector, titles;
-      if (options == null) {
-        options = {};
-      }
-      if (cbs == null) {
-        cbs = {};
-      }
-      if (cbs.getTitle == null) {
-        cbs.getTitle = function(item) {
-          return '';
-        };
-      }
-      if (cbs.getDescription == null) {
-        cbs.getDescription = function(item) {
-          return '';
-        };
-      }
-      if (cbs.getHref == null) {
-        cbs.getHref = function(item) {
-          return item.href;
-        };
-      }
-      model = this.model;
-      meta = model.meta;
-      root = meta.root;
-      rootSelector = meta.grid;
-      ns = meta.NS;
-
-      /**
-       *
-       * sorts the array so that the active element is first one (index = 0)
-       * @param {Array} array - an array that to be modified
-       * @param {Integer} index - an index of the active element
-       * @return {Array}
-       *
-       */
-      arrayRebuild = function(array, index) {
-        var part_one, part_two;
-        part_one = array.slice(0, index);
-        part_two = array.slice(index);
-        return part_two.concat(part_one);
-      };
-      $().prettyPhoto(options);
-      images = [];
-      titles = [];
-      descriptions = [];
-      root.on('dataLoaded', function(e, data) {
-        var datas;
-        images = [];
-        titles = [];
-        descriptions = [];
-        datas = data.all;
-        datas.forEach(function(item) {
-          images.push(cbs.getHref(item));
-          titles.push(cbs.getTitle(item));
-          descriptions.push(cbs.getDescription(item));
-        });
-      });
-      return $('body').on('click', "." + ns + "-link", function(e) {
-        var descriptions_new, id, images_new, titles_new;
-        e.preventDefault();
-        id = $(this).parents("." + ns + "-img").attr('data-image-id');
-        images_new = arrayRebuild(images, id);
-        titles_new = arrayRebuild(titles, id);
-        descriptions_new = arrayRebuild(descriptions, id);
-        $.prettyPhoto.open(images_new, titles_new, descriptions_new);
       });
     };
 
@@ -7292,7 +7204,7 @@ Moon Mega Grid
         case 'colorbox':
           return MMG.Lightbox.External.colorBox.call(this, options, cbs);
         case 'prettyphoto':
-          return MMG.Lightbox.External.prettyPhoto.call(this, options, cbs);
+          return console.log('PrettyPhoto is not supported any more!!!');
         case 'photoswipe':
           return MMG.Lightbox.External.photoSwipe.call(this, options, cbs);
         default:
@@ -7335,7 +7247,7 @@ Moon Mega Grid
             return -1;
           }
           n = +fromIndex || 0;
-          if (Math.abs(n) === 2e308) {
+          if (Math.abs(n) === Infinity) {
             n = 0;
           }
           if (n >= len) {

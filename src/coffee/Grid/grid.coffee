@@ -225,7 +225,7 @@ class MMG.Grid.Grid
       when 'colorbox' 
         MMG.Lightbox.External.colorBox.call @, options, cbs
       when 'prettyphoto'
-        MMG.Lightbox.External.prettyPhoto.call @, options, cbs
+        console.log 'PrettyPhoto is not supported any more!!!'
       when 'photoswipe'
         MMG.Lightbox.External.photoSwipe.call @, options, cbs
       else console.error 'Wrong lightbox parameter!'
