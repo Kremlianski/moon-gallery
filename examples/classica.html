@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Example</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../dest/css/mmg.css">
+    <link rel="stylesheet" href="http://moon-mega-grid.exxo.ru/free-source/templates/classica.min.css">
+    <script src="../lib/jquery-3.1.1.min.js"></script>
+    <script src="../lib/underscore-min.js"></script>
+    <script src="../lib/jquery.scrollstop.min.js"></script>
+    <script src="../dest/js/moon-mega-grid.min.js"></script>
+    <script src="http://moon-mega-grid.exxo.ru/free-source/templates/classica.min.js"></script>
+</head>
+<body>
+<div id="container"></div>
+ <script type="text/javascript">
+      $(document).ready(function() {
+        var MMG;
+        MMG = window.MMG;
+      
+        MMG.Gallery('Classica', {
+          retina: 2,
+          grid: '#container',
+          url: 'assets/simple.json',
+          lightbox: {
+            retina: true,
+            swipe: true
+          }
+        });
+      });
+  </script>
+</body>
+</html>
