@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Classica SVG Brightness Filter</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../../dest/css/mmg.css">
+    <link rel="stylesheet" href="http://moon-mega-grid.exxo.ru/free-source/templates/classica.min.css">
+    <script src="../../lib/jquery-3.1.1.min.js"></script>
+    <script src="../../lib/underscore-min.js"></script>
+    <script src="../../lib/jquery.scrollstop.min.js"></script>
+    <script src="../../dest/js/moon-mega-grid.min.js"></script>
+    <script src="http://moon-mega-grid.exxo.ru/free-source/templates/classica.min.js"></script>
+    <style>
+      body {
+        background-color: rgb(10, 10, 10);
+      }
+      #container {
+        padding: 20px;
+      } 
+    </style>
+    <script>
+      $(document).ready(function () {
+        
+        var MMG = window.MMG;
+        MMG.Gallery('Classica', {
+            retina: 2,
+            grid: '#container',
+            url: '../assets/simple.json',
+            lightbox: {
+              retina: true,
+              swipe: true
+            },
+            margin: 12,
+            svgFiltersId: 'brightness', //the id of the filter
+            twin: true //the twin mode is enabled
+          }
+         );
+      });      
+    </script>
+  </head>
+  <body>
+    <svg width="0" height="0">
+      <defs>
+        <filter id="brightness">
+          <fecomponenttransfer>
+            <fefuncr type="linear" slope="2"></fefuncr>
+            <fefuncg type="linear" slope="2"></fefuncg>
+            <fefuncb type="linear" slope="2"></fefuncb>
+          </fecomponenttransfer>
+        </filter>
+      </defs>
+    </svg>
+    <div id="container" style="visibility:hidden"></div>
+  </body>
+</html>

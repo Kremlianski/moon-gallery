@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple SVG Discrete Filter</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../../dest/css/mmg.css">
+    <script src="../../lib/jquery-3.1.1.min.js"></script>
+    <script src="../../lib/underscore-min.js"></script>
+    <script src="../../lib/jquery.scrollstop.min.js"></script>
+    <script src="../../dest/js/moon-mega-grid.min.js"></script>
+    <style>
+      body {
+        background-color: rgb(10, 10, 10);
+      }
+      #container {
+        padding: 20px;
+      } 
+    </style>
+    <script>
+      $(document).ready(function() {
+          var MMG;
+          MMG = window.MMG;
+
+          MMG.Gallery('Simple', {
+            retina: 2,
+            grid: '#container',
+            url: '../assets/simple.json',
+            lightbox: {
+              retina: true,
+              swipe: true
+            },
+            margin: 12,
+            svgFiltersId: 'discrete' //the id of the filter
+          }
+         );
+      });      
+    </script>
+  </head>
+  <body>
+    <svg width="0" height="0">
+      <defs>
+        <filter id="discrete">
+          <fecomponenttransfer>
+            <fefuncr type="discrete" tablevalues="0 0.3 1"></fefuncr>
+            <fefuncg type="discrete" tablevalues="0 0.8 1"></fefuncg>
+            <fefuncb type="discrete" tablevalues="0 0.5 1"></fefuncb>
+          </fecomponenttransfer>
+        </filter>
+      </defs>
+    </svg>
+    <div id="container" style="visibility:hidden"></div>
+  </body>
+</html>

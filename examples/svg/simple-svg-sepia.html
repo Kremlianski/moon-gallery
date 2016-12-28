@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple SVG Sepia Filter</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../../dest/css/mmg.css">
+    <script src="../../lib/jquery-3.1.1.min.js"></script>
+    <script src="../../lib/underscore-min.js"></script>
+    <script src="../../lib/jquery.scrollstop.min.js"></script>
+    <script src="../../dest/js/moon-mega-grid.min.js"></script>
+    <style>
+      body {
+        background-color: rgb(10, 10, 10);
+      }
+      #container {
+        padding: 20px;
+      } 
+    </style>
+    <script>
+      $(document).ready(function() {
+          var MMG;
+          MMG = window.MMG;
+
+          MMG.Gallery('Simple', {
+            retina: 2,
+            grid: '#container',
+            url: '../assets/simple.json',
+            lightbox: {
+              retina: true,
+              swipe: true
+            },
+            margin: 12,
+            svgFiltersId: 'sepia' //the id of the filter
+          }
+         );
+      });      
+    </script>
+  </head>
+  <body>
+    <svg width="0" height="0">
+      <defs>
+        <filter id="sepia">
+          <fecolormatrix type="matrix" values="0.343 0.669 0.119 0 0 0.249 0.626 0.130 0 0 0.172 0.334 0.111 0 0 0 0 0 1 0"></fecolormatrix>
+        </filter>
+      </defs>
+    </svg>
+    <div id="container" style="visibility:hidden"></div>
+  </body>
+</html>
