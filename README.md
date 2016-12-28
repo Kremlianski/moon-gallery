@@ -1,8 +1,6 @@
-# moon-gallery
-Masonry grid JS library
-
 
 #Moon Gallery
+
 
 ##is a multipurpose horizontal masonry grid building solution:
 
@@ -22,7 +20,7 @@ Templates:
 + [Grand Pack](http://moon-mega-grid.exxo.ru/grand-pack/) (not free)
 + [Flickr Pack](http://moon-mega-grid.exxo.ru/flickr-pack/) (not free)
 
-Docunemtation and examples are comming soon
+Documentation and examples are comming soon
 
 
 
