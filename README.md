@@ -20,7 +20,7 @@ Templates:
 + [Grand Pack](http://moon-mega-grid.exxo.ru/grand-pack/) (not free)
 + [Flickr Pack](http://moon-mega-grid.exxo.ru/flickr-pack/) (not free)
 
-Documentation and examples are comming soon
+See [Documentation](http://moon-mega-grid.exxo.ru/free-pack/api.html)
 
 
 
