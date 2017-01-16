@@ -13,7 +13,7 @@
 + works either with json or html formats (custom parsers)
 
 
-Moon Galery is a open source part of the [Moon Mega Grid Progect](http://moon-mega-grid.exxo.ru/)
+Moon Gallery is a open source part of the [Moon Mega Grid Project](http://moon-mega-grid.exxo.ru/)
 
 Templates:
 + [Free Pack](https://github.com/Kremlianski/free-pack)
