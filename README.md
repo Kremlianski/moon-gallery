@@ -17,10 +17,10 @@ Moon Gallery is a open source part of the [Moon Mega Grid Project](http://moon-m
 
 Templates:
 + [Free Pack](https://github.com/Kremlianski/free-pack)
-+ [Grand Pack](http://moon-mega-grid.exxo.ru/grand-pack/) (not free)
-+ [Flickr Pack](http://moon-mega-grid.exxo.ru/flickr-pack/) (not free)
++ [Grand Pack](http://gallery.scalapro.net/grand-pack/) (not free)
++ [Flickr Pack](http:/gallery.scalapro.net/flickr-pack/) (not free)
 
-See [Documentation](http://moon-mega-grid.exxo.ru/free-pack/api.html)
+See [Documentation](http://gallery.scalapro.net/free-pack/api.html)
 
 
 
