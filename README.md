@@ -23,4 +23,7 @@ Templates:
 See [Documentation](http://gallery.scalapro.net/free-pack/api.html)
 
 
+or [PDF version](http://gallery.scalapro.net/masonry-grid-api.pdf)
+
+
 
