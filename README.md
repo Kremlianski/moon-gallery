@@ -26,4 +26,7 @@ See [Documentation](http://gallery.scalapro.net/free-pack/api.html)
 or [PDF version](http://gallery.scalapro.net/assets/pdf/masonry-grid-api.pdf)
 
 
+See [Best Flickr Photos Project](http://gallery.scalapro.net/best-flickr-photos/last-gallery.html) as an example
+
+
 
