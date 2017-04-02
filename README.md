@@ -1,8 +1,8 @@
 
-#Moon Gallery
+# Moon Gallery
 
 
-##is a multipurpose horizontal masonry grid building solution:
+## is a multipurpose horizontal masonry grid building solution:
 
 + integrated support for canvas and svg filters
 + perfect for mobile devices
