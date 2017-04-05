@@ -32,4 +32,4 @@ See [Best Flickr Photos Project](http://gallery.scalapro.net/best-flickr-photos/
 See my post [Query: making a masonry gallery for free](http://scalapro.net/jquery-making-a-masonry-gallery-for-free/)
 
 
-
+See [The gallery with photo-filters ](http://scalapro.net/the-gallery-with-photo-filters/)
