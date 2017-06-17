@@ -30,7 +30,7 @@ or [PDF version](http://gallery.scalapro.net/assets/pdf/masonry-grid-api.pdf)
 See [Best Flickr Photos Project](http://gallery.scalapro.net/best-flickr-photos/last-gallery.html) as an example
 
 
-###See my posts:###
+### See my posts: ###
 
 + [jQuery: making a masonry gallery for free](http://scalapro.net/jquery-making-a-masonry-gallery-for-free/)
 
