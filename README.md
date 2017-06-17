@@ -26,6 +26,7 @@ See [Documentation](http://gallery.scalapro.net/free-pack/api.html)
 or [PDF version](http://gallery.scalapro.net/assets/pdf/masonry-grid-api.pdf)
 
 
+
 See [Best Flickr Photos Project](http://gallery.scalapro.net/best-flickr-photos/last-gallery.html) as an example
 
 
@@ -33,3 +34,5 @@ See my post [jQuery: making a masonry gallery for free](http://scalapro.net/jque
 
 
 See [The gallery with photo-filters ](http://scalapro.net/the-gallery-with-photo-filters/)
+
+See [How to make a gallery for Flickr photos](http://scalapro.net/how-to-make-a-gallery-for-flickr-photos/)
