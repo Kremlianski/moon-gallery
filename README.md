@@ -11,6 +11,7 @@
 + 2 retina modes
 + memory saving algorithm
 + works either with json or html formats (custom parsers)
++ Flickr API support
 
 
 Moon Gallery is a open source part of the [Moon Mega Grid Project](http://gallery.scalapro.net/)
