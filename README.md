@@ -28,9 +28,6 @@ or [PDF version](http://exxo.ru/moon-mega-grid/assets/pdf/masonry-grid-api.pdf)
 
 
 
-See [Best Flickr Photos Project](http://exxo.ru/moon-mega-grid/best-flickr-photos/last-gallery.html) as an example
-
-
 ### See my posts: ###
 
 + [jQuery: making a masonry gallery for free](http://blog.exxo.ru/jquery-making-a-masonry-gallery-for-free/)
