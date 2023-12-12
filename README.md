@@ -18,25 +18,25 @@ Moon Gallery is a open source part of the [Moon Mega Grid Project](http://galler
 
 Templates:
 + [Free Pack](https://github.com/Kremlianski/free-pack)
-+ [Grand Pack](http://gallery.scalapro.net/grand-pack/) (not free)
-+ [Flickr Pack](http:/gallery.scalapro.net/flickr-pack/) (not free)
++ [Grand Pack](http://exxo.ru/moon-mega-grid/grand-pack/) (not free)
++ [Flickr Pack](http://exxo.ru/moon-mega-grid/flickr-pack/) (not free)
 
-See [Documentation](http://gallery.scalapro.net/free-pack/api.html)
-
-
-or [PDF version](http://gallery.scalapro.net/assets/pdf/masonry-grid-api.pdf)
+See [Documentation](http://exxo.ru/moon-mega-grid/free-pack/api.html)
 
 
+or [PDF version](http://exxo.ru/moon-mega-grid/assets/pdf/masonry-grid-api.pdf)
 
-See [Best Flickr Photos Project](http://gallery.scalapro.net/best-flickr-photos/last-gallery.html) as an example
+
+
+See [Best Flickr Photos Project](http://exxo.ru/moon-mega-grid/best-flickr-photos/last-gallery.html) as an example
 
 
 ### See my posts: ###
 
-+ [jQuery: making a masonry gallery for free](http://scalapro.net/jquery-making-a-masonry-gallery-for-free/)
++ [jQuery: making a masonry gallery for free](http://blog.exxo.ru/jquery-making-a-masonry-gallery-for-free/)
 
 
-+ [The gallery with photo-filters ](http://scalapro.net/the-gallery-with-photo-filters/)
++ [The gallery with photo-filters ](http://blog.exxo.ru/the-gallery-with-photo-filters/)
 
 
-+ [How to make a gallery for Flickr photos](http://scalapro.net/how-to-make-a-gallery-for-flickr-photos/)
++ [How to make a gallery for Flickr photos](http://blog.exxo.ru/how-to-make-a-gallery-for-flickr-photos/)
