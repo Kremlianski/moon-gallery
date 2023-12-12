@@ -14,7 +14,7 @@
 + Flickr API support
 
 
-Moon Gallery is a open source part of the [Moon Mega Grid Project](http://gallery.scalapro.net/)
+Moon Gallery is a open source part of the [Moon Mega Grid Project](http://exxo.ru/moon-mega-grid/)
 
 Templates:
 + [Free Pack](https://github.com/Kremlianski/free-pack)
